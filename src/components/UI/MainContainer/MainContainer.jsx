@@ -9,7 +9,6 @@ const MainContainer = () => {
                 Cloud medical service
             </Typography>
 
-
             <CheckLine text="We keep our equipment up to date and use only modern technologies"/>
             <CheckLine text="Round-the-clock support"/>
             <CheckLine text="AI Technologies"/>
