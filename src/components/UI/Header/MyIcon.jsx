@@ -10,6 +10,7 @@ const MyIcon = () => {
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2}}
+            onClick={() => window.location.href='/home'}
         >
             <AddCircleOutlineOutlinedIcon fontSize="large"/>
         </IconButton>

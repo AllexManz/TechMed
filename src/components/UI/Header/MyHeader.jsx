@@ -12,12 +12,12 @@ const MyHeader  = () => {
                 sx={{backgroundColor: "#63DBBA"}}
                 sx={{backgroundColor: "#00b5a0"}}
                 */}
-                <Toolbar>
-                    <MyLogo sx={{flexGrow: 2}}/>
+                <Toolbar sx={{display: 'flex', justifyContent: "space-between"}}>
+                    <MyLogo/>
 
-                    <MiddlePart sx={{ mr: 20, flexGrow: 2 }}/>
+                    <MiddlePart sx={{mr: 20}}/>
 
-                    <Button color="inherit" size="medium" sx={{ flexGrow: 1 }}>
+                    <Button color="inherit" size="medium">
                         Login
                     </Button>
                 </Toolbar>
