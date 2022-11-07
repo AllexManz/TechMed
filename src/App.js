@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import MyHeader from "./components/UI/Header/MyHeader";
+import MainContainer from "./components/UI/MainContainer/MainContainer";
+import {Stack} from "@mui/material";
+import About from "./components/UI/About/About";
+import Facility from "./components/UI/Facility/Facility";
+import Specialists from "./components/UI/Specialists/Specialists";
+import Footer from "./components/UI/Footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Stack direction='column' spacing={7} justifyContent="center">
+            <MyHeader/>
+            <MainContainer/>
+            <About/>
+            <Facility/>
+            <Specialists/>
+            <Footer/>
+        </Stack>
+    );
 }
 
 export default App;
