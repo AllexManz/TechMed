@@ -17,7 +17,7 @@ const MyHeader  = () => {
 
                     <MiddlePart sx={{mr: 20}}/>
 
-                    <Button color="inherit" size="medium">
+                    <Button color="inherit" size="medium" onClick={() => window.location.href='/login'}>
                         Login
                     </Button>
                 </Toolbar>

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Box, Button, Typography} from "@mui/material";
 import CheckLine from "./CheckLine";
+import Alert from "./Alert";
 
 const MainContainer = () => {
     return (
@@ -18,6 +19,7 @@ const MainContainer = () => {
                 <Button variant='contained' color="primary" size="large" sx={{mt: 10, ml: 5, justifyContent: "flex-start"}}>
                     Subscribe Now
                 </Button>
+                <Alert sx={{ml: 5}}/>
             </Box>
 
 
